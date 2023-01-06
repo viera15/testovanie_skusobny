@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+	<title>TS_01_preverenie_poloziek_RD_dennik_zaznamov</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">TC_01_dennik_zaznamov</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://admistest/Records/<datalist><option>https://admistest/Records/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//div[@id='foldersTree']/div/div/div/div/ul/li/ul/li[9]/div/div/span<datalist><option>xpath=//div[@id='foldersTree']/div/div/div/div/ul/li/div[2]</option><option>xpath=//li/div[2]</option><option>css=div.dx-treeview-toggle-item-visibility</option><option>xpath=//div[@id='foldersTree']/div/div/div/div/ul/li/ul/li[9]/div/div/span</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">TC_02_dorucena_posta</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://admistest/Records/<datalist><option>https://admistest/Records/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//div[@id='foldersTree']/div/div/div/div/ul/li/ul/li/div/div/span<datalist><option>xpath=//div[@id='foldersTree']/div/div/div/div/ul/li/ul/li/div/div/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Denník záznamov'])[2]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Refreshing...'])[1]/following::span[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Postúpené cudzie'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Zdielané cudzie'])[1]/preceding::span[2]</option><option>xpath=//*/text()[normalize-space(.)='Doručená pošta']/parent::*</option><option>xpath=//li/ul/li/div/div/span</option><option>css=div.dx-item.dx-treeview-item.dx-state-hover &gt; div.folder-item.dx-template-wrapper.dx-item-content.dx-treeview-item-content &gt; span.txt-folder-name</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">TC_03_postupene_cudzie</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://admistest/Records/<datalist><option>https://admistest/Records/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//div[@id='foldersTree']/div/div/div/div/ul/li/ul/li[2]/div/div/span<datalist><option>xpath=//div[@id='foldersTree']/div/div/div/div/ul/li/ul/li[2]/div/div/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Doručená pošta'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Denník záznamov'])[2]/following::span[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Zdielané cudzie'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Postúpené vlastné'])[1]/preceding::span[2]</option><option>xpath=//*/text()[normalize-space(.)='Postúpené cudzie']/parent::*</option><option>xpath=//li[2]/div/div/span</option><option>css=div.dx-item.dx-treeview-item.dx-state-hover &gt; div.folder-item.dx-template-wrapper.dx-item-content.dx-treeview-item-content &gt; span.txt-folder-name</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">TC_04_zdielane_cudzie</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://admistest/Records/<datalist><option>https://admistest/Records/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//div[@id='foldersTree']/div/div/div/div/ul/li/ul/li[3]/div/div/span<datalist><option>xpath=//div[@id='foldersTree']/div/div/div/div/ul/li/ul/li[3]/div/div/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Postúpené cudzie'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Doručená pošta'])[1]/following::span[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Postúpené vlastné'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Zdielané vlastné'])[1]/preceding::span[2]</option><option>xpath=//*/text()[normalize-space(.)='Zdielané cudzie']/parent::*</option><option>xpath=//li[3]/div/div/span</option><option>css=div.dx-item.dx-treeview-item.dx-state-hover &gt; div.folder-item.dx-template-wrapper.dx-item-content.dx-treeview-item-content &gt; span.txt-folder-name</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">TC_05_postupene_vlastne</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://admistest/Records/<datalist><option>https://admistest/Records/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//div[@id='foldersTree']/div/div/div/div/ul/li/ul/li[4]/div/div/span<datalist><option>xpath=//div[@id='foldersTree']/div/div/div/div/ul/li/ul/li[4]/div/div/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Zdielané cudzie'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Postúpené cudzie'])[1]/following::span[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Zdielané vlastné'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nevybavené'])[1]/preceding::span[2]</option><option>xpath=//*/text()[normalize-space(.)='Postúpené vlastné']/parent::*</option><option>xpath=//li[4]/div/div/span</option><option>css=div.dx-item.dx-treeview-item.dx-state-hover &gt; div.folder-item.dx-template-wrapper.dx-item-content.dx-treeview-item-content &gt; span.txt-folder-name</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">TC_06_zdielane_vlastne</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://admistest/Records/<datalist><option>https://admistest/Records/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//div[@id='foldersTree']/div/div/div/div/ul/li/ul/li[5]/div/div/span<datalist><option>xpath=//div[@id='foldersTree']/div/div/div/div/ul/li/ul/li[5]/div/div/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Postúpené vlastné'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Zdielané cudzie'])[1]/following::span[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nevybavené'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Vybavené'])[1]/preceding::span[2]</option><option>xpath=//*/text()[normalize-space(.)='Zdielané vlastné']/parent::*</option><option>xpath=//li[5]/div/div/span</option><option>css=div.dx-item.dx-treeview-item.dx-state-hover &gt; div.folder-item.dx-template-wrapper.dx-item-content.dx-treeview-item-content &gt; span.txt-folder-name</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">TC_07_nevybavene</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://admistest/Records/<datalist><option>https://admistest/Records/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//div[@id='foldersTree']/div/div/div/div/ul/li/ul/li[6]/div/div/span<datalist><option>xpath=//div[@id='foldersTree']/div/div/div/div/ul/li/ul/li[6]/div/div/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Zdielané vlastné'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Postúpené vlastné'])[1]/following::span[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Vybavené'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nezaložené v spise'])[1]/preceding::span[2]</option><option>xpath=//*/text()[normalize-space(.)='Nevybavené']/parent::*</option><option>xpath=//li[6]/div/div/span</option><option>css=div.dx-item.dx-treeview-item.dx-state-hover &gt; div.folder-item.dx-template-wrapper.dx-item-content.dx-treeview-item-content &gt; span.txt-folder-name</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">TC_08_vybavene</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://admistest/Records/<datalist><option>https://admistest/Records/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//div[@id='foldersTree']/div/div/div/div/ul/li/ul/li[7]/div/div/span<datalist><option>xpath=//div[@id='foldersTree']/div/div/div/div/ul/li/ul/li[7]/div/div/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nevybavené'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Zdielané vlastné'])[1]/following::span[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nezaložené v spise'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Prístupné'])[1]/preceding::span[2]</option><option>xpath=//*/text()[normalize-space(.)='Vybavené']/parent::*</option><option>xpath=//li[7]/div/div/span</option><option>css=div.dx-item.dx-treeview-item.dx-state-hover &gt; div.folder-item.dx-template-wrapper.dx-item-content.dx-treeview-item-content &gt; span.txt-folder-name</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">TC_09_nezalozene_v_spise</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://admistest/Records/<datalist><option>https://admistest/Records/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//div[@id='foldersTree']/div/div/div/div/ul/li/ul/li[8]/div/div/span<datalist><option>xpath=//div[@id='foldersTree']/div/div/div/div/ul/li/ul/li[8]/div/div/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Vybavené'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nevybavené'])[1]/following::span[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Prístupné'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Interná pošta'])[1]/preceding::span[2]</option><option>xpath=//*/text()[normalize-space(.)='Nezaložené v spise']/parent::*</option><option>xpath=//li[8]/div/div/span</option><option>css=div.dx-item.dx-treeview-item.dx-state-hover &gt; div.folder-item.dx-template-wrapper.dx-item-content.dx-treeview-item-content &gt; span.txt-folder-name</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">TC_010_pristupne</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://admistest/Records/<datalist><option>https://admistest/Records/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//div[@id='foldersTree']/div/div/div/div/ul/li/ul/li[9]/div/div/span<datalist><option>xpath=//div[@id='foldersTree']/div/div/div/div/ul/li/ul/li[9]/div/div/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Nezaložené v spise'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Vybavené'])[1]/following::span[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Interná pošta'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Zložka'])[1]/preceding::span[2]</option><option>xpath=//*/text()[normalize-space(.)='Prístupné']/parent::*</option><option>xpath=//li[9]/div/div/span</option><option>css=div.dx-item.dx-treeview-item.dx-state-hover &gt; div.folder-item.dx-template-wrapper.dx-item-content.dx-treeview-item-content &gt; span.txt-folder-name</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
